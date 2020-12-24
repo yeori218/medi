@@ -1,0 +1,90 @@
+@charset'utf-8';
+
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'NanumBarunGothic', sans-serif;}
+ul li {list-style: none;}
+a {text-decoration: none; color: #000;}
+button {border: none; background: none;}
+.wrap {width: 100%; padding: 20px;}
+
+/* font (NanumBarunGothic_Gray) */
+.nb_g_12 {color: #767676; font-size: 0.75rem;}
+.nb_g_14 {color: #767676; font-size: 0.875rem;}
+.nb_g_16 {color: #767676; font-size: 1rem;}
+.nb_g_18 {color: #767676; font-size: 1.125rem;}
+.nb_g_18 {color: #767676; font-size: 1.375rem;}
+
+/* font (NanumBarunGothic_Black) */
+.nb_b_12 {color: #191919; font-size: 0.75rem;}
+.nb_b_14 {color: #191919; font-size: 0.875rem;}
+.nb_b_16 {color: #191919; font-size: 1rem;}
+.nb_b_18 {color: #191919; font-size: 1.125rem;}
+.nb_b_18 {color: #191919; font-size: 1.375rem;}
+
+/* button */
+.btn_Login {width: 100%; height: 6.19vh; border-radius: 100px; background-color: #D2D2D2; color: #fff; font-size: 1.125rem; cursor: pointer; background: linear-gradient(to right, #8FC31F, #1EA235);}
+.btn_Login:active {background-color: #1EA235;}
+.btn_Login:focus {outline: none;}
+
+.btn_Join {width: 100%; height: 4.26vh; border-radius: 100px; background-color: #fff; border: 1px solid #D2D2D2; color: #767676; font-size: 1.125rem; cursor: pointer;}
+.btn_Join:active {border: 1px solid #1EA235; color: #1EA235;}
+.btn_Join:focus {outline: none;}
+
+.btn_Square {width: 100%; height: 5.12vh; border-radius: 10px; background-color: #D2D2D2; color: #fff; font-size: 1.125rem; cursor: pointer;}
+.btn_Square:active {background-color: #1EA235;}
+.btn_Square:focus {outline: none;}
+
+.btn_Circle {width: 100%; height: 4.70vh; border-radius: 100px; background-color: #D2D2D2; color: #fff; font-size: 1rem; cursor: pointer;}
+.btn_Circle:active {background-color: #1EA235;}
+.btn_Circle:focus {outline: none;}
+
+.btn_CircleL {display: block; width: 60vw; height: 5.12vh; margin: 0 auto; border-radius: 100px; background-color: #D2D2D2; color: #fff; font-size: 1rem; cursor: pointer;}
+.btn_CircleL:active {background-color: #1EA235;}
+.btn_CircleL:focus {outline: none;}
+
+.btn_CircleM {width: 40vw; height: 4.70vh; border-radius: 100px; background-color: #fff; border: 1px solid #AAA; color: #767676; font-size: 1rem; cursor: pointer;}
+.btn_CircleM:active {border: 1px solid #1EA235; color: #1EA235;}
+.btn_CircleM:focus {outline: none;}
+
+.btn_CircleS {width: 20vw; height: 4.70vh; border-radius: 100px; background-color: #fff; border: 1px solid #AAA; color: #767676; font-size: 1rem; cursor: pointer;}
+.btn_CircleS:active {border: 1px solid #1EA235; color: #1EA235;}
+.btn_CircleS:focus {outline: none;}
+
+.btn_Certi {width: 100%; height: 4.70vh; border-radius: 10px; border: 1px solid #d2d2d2; background-color: #f2f2f2; color: #767676; font-size: 0.875rem; cursor: pointer;}
+.btn_Certi:active {background-color: #fff; color: #1EA235; border: 1px solid #1EA235;}
+.btn_Certi:focus {outline: none; background-color: #fff; color: #1EA235; border: 1px solid #1EA235;}
+
+.btn_Agree {display: block; width: 100%; height: 5.12vh; line-height: 5.12vh; padding: 0 20px; border-radius: 10px; font-size: 1rem; color: #aaa; background-color: #f5f5f5; border: 1px solid #d2d2d2; cursor: pointer;}
+
+
+/* inpput */
+.input_IdPw {width: 100%; height: 6.19vh; border: 1px solid #D2D2D2; color: #191919; font-size: 1rem; padding: 20px; border-radius: 100px;}
+.input_IdPw:active {border: 1px solid #1EA235;}
+.input_IdPw:focus {outline: none; border: 1px solid #1EA235;}
+
+.input_Square {width: 100%; height: 5.12vh; border: 1px solid #D2D2D2; color: #191919; font-size: 0.875rem; padding: 10px; border-radius: 10px;}
+.input_Square:active {border: 1px solid #1EA235; background-color: #f5f5f5;}
+.input_Square:focus {outline: none; border: 1px solid #1EA235; background-color: #f5f5f5;}
+
+.input_Circle {width: 100%; height: 5.12vh; border: 1px solid #D2D2D2; color: #191919; font-size: 0.875rem; padding: 10px; border-radius: 100px;}
+.input_Circle:active {border: 1px solid #1EA235;}
+.input_Circle:focus {outline: none; border: 1px solid #1EA235;}
+
+/* Login Page  */
+.logo {text-align: center; margin-top: 10.78vh; margin-bottom: 4.1vh;}
+
+.input_group {position: relative; margin-bottom: 1.08vh;}
+.input_ico{position: absolute; right: 4vw; top: 50%; transform: translateY(-50%);}
+
+.btn_Login{margin-bottom: 2.15vh;}
+
+.id_util{display: flex; justify-content: space-between; padding: 0 2vw; margin-bottom: 5.17vh;}
+.id_util .pointer{cursor: pointer;}
+
+.btn_Join{margin-bottom: 4.31vh;}
+
+.login_dif{display: flex; justify-content: space-between; padding: 0 12vw;}
+.login_dif li{width: calc(100%/3); text-align: center; position: relative;}
+.login_dif .google{width: 8vw; height: 8vw; border: solid 1px #d2d2d2; border-radius: 50%;}
+.login_dif .naver{width: 8vw; height: 8vw; border: solid 1px #4ab748; border-radius: 50%; background: #4ab748;}
+.login_dif .kakao{width: 8vw; height: 8vw; border: solid 1px #ffe600; border-radius: 50%; background: #ffe600;}
+.login_dif li a{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
